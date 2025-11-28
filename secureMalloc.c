@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdint.h>
 
-// --- CONFIGURACIÓN DE SEGURIDAD ---
+// ---- CONFIGURACIÓN DE SEGURIDAD ----
 #define HEAP_SIZE 1024 * 10 // 10KB de memoria simulada
 #define MAGIC_CANARY 0xDEADBEEF // Valor secreto para detectar corrupción
 
